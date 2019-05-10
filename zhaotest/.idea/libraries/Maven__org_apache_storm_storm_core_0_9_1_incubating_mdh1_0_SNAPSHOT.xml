@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.storm:storm-core:0.9.1-incubating-mdh1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/0.9.1-incubating-mdh1.0-SNAPSHOT/storm-core-0.9.1-incubating-mdh1.0-20140424.084640-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/0.9.1-incubating-mdh1.0-SNAPSHOT/storm-core-0.9.1-incubating-mdh1.0-20140424.084640-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/0.9.1-incubating-mdh1.0-SNAPSHOT/storm-core-0.9.1-incubating-mdh1.0-20140424.084640-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

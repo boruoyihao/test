@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi:xiaomi-thrift-antispam:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-antispam/1.0-SNAPSHOT/xiaomi-thrift-antispam-1.0-20140528.082438-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-antispam/1.0-SNAPSHOT/xiaomi-thrift-antispam-1.0-20140528.082438-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-antispam/1.0-SNAPSHOT/xiaomi-thrift-antispam-1.0-20140528.082438-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

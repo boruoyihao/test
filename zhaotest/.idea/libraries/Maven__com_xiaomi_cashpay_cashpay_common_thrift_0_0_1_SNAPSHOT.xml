@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.cashpay:cashpay-common-thrift:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cashpay/cashpay-common-thrift/0.0.1-SNAPSHOT/cashpay-common-thrift-0.0.1-20171212.033952-96.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cashpay/cashpay-common-thrift/0.0.1-SNAPSHOT/cashpay-common-thrift-0.0.1-20171212.033952-96-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cashpay/cashpay-common-thrift/0.0.1-SNAPSHOT/cashpay-common-thrift-0.0.1-20171212.033952-96-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

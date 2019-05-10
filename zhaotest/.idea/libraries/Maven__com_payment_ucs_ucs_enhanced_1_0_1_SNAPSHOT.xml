@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.payment.ucs:ucs-enhanced:1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-enhanced/1.0.1-SNAPSHOT/ucs-enhanced-1.0.1-20140509.062925-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-enhanced/1.0.1-SNAPSHOT/ucs-enhanced-1.0.1-20140509.062925-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-enhanced/1.0.1-SNAPSHOT/ucs-enhanced-1.0.1-20140509.062925-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

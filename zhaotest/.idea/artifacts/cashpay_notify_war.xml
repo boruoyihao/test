@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cashpay-notify:war">
+    <output-path>$USER_HOME$/miuicloud/cashpay/cashpay-notify/target</output-path>
+    <root id="archive" name="cashpay-notify-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cashpay-notify:war exploded" />
+    </root>
+  </artifact>
+</component>

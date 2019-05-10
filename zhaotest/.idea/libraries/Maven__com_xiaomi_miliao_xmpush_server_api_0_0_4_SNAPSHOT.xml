@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.miliao:xmpush-server-api:0.0.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/miliao/xmpush-server-api/0.0.4-SNAPSHOT/xmpush-server-api-0.0.4-20151118.100900-286.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/miliao/xmpush-server-api/0.0.4-SNAPSHOT/xmpush-server-api-0.0.4-20151118.100900-286-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/miliao/xmpush-server-api/0.0.4-SNAPSHOT/xmpush-server-api-0.0.4-20151118.100900-286-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

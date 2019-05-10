@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <RollingRandomAccessFile name="${service_name}-log"
+            fileName="/home/work/log/${service_name}/${service_name}.log"
+            filePattern="/home/work/log/${service_name}/${service_name}.log.%d{yyyyMMddHH}.gz"
+            append="true" immediateFlush="false">
+            <PatternLayout
+                pattern="[%-5p %d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] [%X{SessionId}] [%c{1}.%M] [%m]%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingRandomAccessFile>
+        <RollingRandomAccessFile name="${service_name}-exception-log"
+            fileName="/home/work/log/${service_name}/${service_name}.log.wf"
+            filePattern="/home/work/log/${service_name}/${service_name}.log.wf.%d{yyyyMMddHH}.gz"
+            append="true" immediateFlush="false">
+            <PatternLayout
+                pattern="[%-5p %d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] [%X{SessionId}] [%c{1}.%M] [%m]%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingRandomAccessFile>
+
+    </Appenders>
+    <Loggers>
+        <asyncLogger name="net.paoding.rose.jade"
+            level="ERROR" includeLocation="true" additivity="false">
+            <AppenderRef ref="${service_name}-exception-log" level="error"/>
+            <AppenderRef ref="${service_name}-exception-scribeAppender" level="error"/>
+        </asyncLogger>
+
+        <AsyncLogger name="org.springframework" level="warn" additivity="false">
+            <AppenderRef ref="${service_name}-log" />
+            <AppenderRef ref="${service_name}-exception-log" level="error"/>
+        </AsyncLogger>
+
+        <asyncRoot level="info" includeLocation="true">
+            <AppenderRef ref="${service_name}-log" />
+            <AppenderRef ref="${service_name}-exception-log" level="error"/>
+        </asyncRoot>
+    </Loggers>
+</Configuration>

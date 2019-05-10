@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cashpay-etl-fanli:war">
+    <output-path>$PROJECT_DIR$/../cashpay-etl-fanli/target</output-path>
+    <root id="archive" name="cashpay-etl-fanli.war">
+      <element id="artifact" artifact-name="cashpay-etl-fanli:war exploded" />
+    </root>
+  </artifact>
+</component>

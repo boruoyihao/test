@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.cashpay:cashpay-sharding-core:0.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cashpay/cashpay-sharding-core/0.0.3-SNAPSHOT/cashpay-sharding-core-0.0.3-20171128.133458-29.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cashpay/cashpay-sharding-core/0.0.3-SNAPSHOT/cashpay-sharding-core-0.0.3-20171128.133458-29-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cashpay/cashpay-sharding-core/0.0.3-SNAPSHOT/cashpay-sharding-core-0.0.3-20171128.133458-29-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.payment.ucs:ucs-memcached:1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-memcached/1.0.1-SNAPSHOT/ucs-memcached-1.0.1-20140512.083138-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-memcached/1.0.1-SNAPSHOT/ucs-memcached-1.0.1-20140512.083138-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-memcached/1.0.1-SNAPSHOT/ucs-memcached-1.0.1-20140512.083138-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

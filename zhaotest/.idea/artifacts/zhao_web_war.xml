@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zhao-web:war">
+    <output-path>$PROJECT_DIR$/../zhao-web/target</output-path>
+    <root id="archive" name="zhao-web.war">
+      <element id="artifact" artifact-name="zhao-web:war exploded" />
+    </root>
+  </artifact>
+</component>

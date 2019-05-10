@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.payment.ucs:ucs-support-annotation:1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-support-annotation/1.0.1-SNAPSHOT/ucs-support-annotation-1.0.1-20140509.062932-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-support-annotation/1.0.1-SNAPSHOT/ucs-support-annotation-1.0.1-20140509.062932-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/ucs/ucs-support-annotation/1.0.1-SNAPSHOT/ucs-support-annotation-1.0.1-20140509.062932-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

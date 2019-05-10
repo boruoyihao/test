@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+    <mapping directory="$USER_HOME$/gitn/cashpay-base/cashpay-common" vcs="Git" />
+    <mapping directory="$USER_HOME$/miuicloud/cashpay/cashpay-idmanager" vcs="Git" />
+    <mapping directory="$USER_HOME$/miuicloud/cashpay/cashpay-idmanager-client" vcs="Git" />
+    <mapping directory="$USER_HOME$/miuicloud/cashpay/cashpay-notify" vcs="Git" />
+    <mapping directory="$USER_HOME$/miuicloud/cashpay/cashpay-notify-client" vcs="Git" />
+    <mapping directory="$USER_HOME$/miuicloud/cashpay/cashpay-notify-interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cashpay-etl-fanli" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dubbo" vcs="Git" />
+  </component>
+</project>

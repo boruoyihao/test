@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cashpay-idmanager:war">
+    <output-path>$USER_HOME$/miuicloud/cashpay/cashpay-idmanager/target</output-path>
+    <root id="archive" name="cashpay-idmanager-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cashpay-idmanager:war exploded" />
+    </root>
+  </artifact>
+</component>

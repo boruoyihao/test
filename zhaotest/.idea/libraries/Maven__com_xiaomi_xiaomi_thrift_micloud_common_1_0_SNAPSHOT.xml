@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi:xiaomi-thrift-micloud-common:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-micloud-common/1.0-SNAPSHOT/xiaomi-thrift-micloud-common-1.0-20131023.074202-1270.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-micloud-common/1.0-SNAPSHOT/xiaomi-thrift-micloud-common-1.0-20131023.074202-1270-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-micloud-common/1.0-SNAPSHOT/xiaomi-thrift-micloud-common-1.0-20131023.074202-1270-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

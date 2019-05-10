@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi:xiaomi-thrift-api:1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-api/1.0.1-SNAPSHOT/xiaomi-thrift-api-1.0.1-20131031.161936-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-api/1.0.1-SNAPSHOT/xiaomi-thrift-api-1.0.1-20131031.161936-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-thrift-api/1.0.1-SNAPSHOT/xiaomi-thrift-api-1.0.1-20131031.161936-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

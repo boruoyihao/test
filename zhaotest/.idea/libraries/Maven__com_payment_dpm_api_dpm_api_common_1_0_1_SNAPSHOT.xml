@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.payment.dpm.api:dpm-api-common:1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/dpm/api/dpm-api-common/1.0.1-SNAPSHOT/dpm-api-common-1.0.1-20171220.032557-86.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/dpm/api/dpm-api-common/1.0.1-SNAPSHOT/dpm-api-common-1.0.1-20171220.032557-86-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/payment/dpm/api/dpm-api-common/1.0.1-SNAPSHOT/dpm-api-common-1.0.1-20171220.032557-86-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

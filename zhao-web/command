@@ -1,0 +1,2 @@
+mvn -U clean package jetty:run-war
+mvn -U clean package -Dtest=MonitorTest#cashpaycoreTest
