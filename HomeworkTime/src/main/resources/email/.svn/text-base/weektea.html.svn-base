@@ -1,0 +1,36 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<div style="" id="mailContentContainer" class="qmbox qm_con_body_content">
+<div marginheight="0" marginwidth="0" style="background-color:#ffffff ;text-align:left ;width:100% " bgcolor="#ffffff">
+    <div style="padding:10px">
+        <div style="background-color:#ffffff;width:100%;">
+            <div style="font-size:16px;line-height:1.5;color:#A52A2A;text-decoration:none;cursor:text;font-weight: bold">以下课程学生变动</div>
+            <div>如果学生加课有变动，周日24点，发送本周学生的变动情况</div>
+        </div>
+        <div style="border-top-width:1px;border-top-color:#cccccc;border-top-style:solid;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#cccccc;background-color:#ffffff;width:100%;margin:19px 0;padding:0">
+          <table style="background:#ffffff;width:100%;text-align:left;border-collapse:collapse;border-spacing:0;margin:20px 0px 0px 0px;padding:0;border:0">
+                <tbody>
+                <tr>
+					<td style="vertical-align:top;line-height:1.5;padding-bottom:15px;text-align:left;font-size:16px;background:#ffffff;font-family:'Helvetica Neue',helvetica,sans-serif">
+						<a target="_blank" href="http://www.ketangpai.com/Home/Main/index" style="color:#333333  ;text-decoration:none;cursor:text;">
+						<span style="margin-right: 10px">❏</span><span class="todo-rest" title="{0}">{0}</span>
+						</a>
+			                  <span style="font-size:14px;line-height:18px;font-family:'Helvetica Neue',helvetica,sans-serif;color:#999999;">
+						  <br>
+                                      <a style="color:#A52A2A ;text-decoration:none;cursor:text;margin-right:20px;"><div style="display:inline;color:#333">本周</div>{1}人<div style="display:inline;color:#333">加课</div>，{2}人<div style="display:inline;color:#333">退课</div></a>
+                                      <a style="color:#A52A2A ;text-decoration:none;cursor:text;margin-right:20px;">共{3}名<div style="display:inline;color:#333">学生已加入课堂</div></a>
+					  	</span>
+									   {4}
+									   {5}
+
+					</td>
+                </tr>             
+              </tbody>
+              </table>
+            <p></p>
+        </div>
+		<span style="color: rgb(128, 128, 128);font-size:16px;">
+        		课堂派  简单，好用的课堂管理工具
+		</span>
+    </div>
+</div>
+</div>

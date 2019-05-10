@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-2.5.xsd"
+       default-lazy-init="true">
+
+    <!-- 自动扫描 -->
+    <context:annotation-config/>
+        <context:component-scan base-package="com.ketangpai">
+    </context:component-scan>
+    <context:load-time-weaver aspectj-weaving="on" />
+    <!-- DAO支持 -->
+    <bean id="mqsparam" class="java.lang.String">
+          <constructor-arg value="${mqsparam}"></constructor-arg>
+    </bean>
+
+    <bean id="mqsService" class="com.ketangpai.emailservice.EmailManagerImpl">
+        <constructor-arg>
+            <bean class="com.ketangpai.service.EmailRecordService"/>
+        </constructor-arg>
+        <constructor-arg>
+            <bean class="com.ketangpai.emailservice.MQSManagerImpl"/>
+        </constructor-arg>
+        <constructor-arg value="8"/>
+    </bean>
+    
+   <bean id="taskManager" class="com.ketangpai.task.TaskManager">
+		<constructor-arg>
+			<bean class="com.ketangpai.service.HomeworkService"/>
+		</constructor-arg>
+		<constructor-arg>
+			<bean class="com.ketangpai.service.UnionService"/>
+		</constructor-arg>
+		<constructor-arg ref="mqsService">
+		</constructor-arg>
+		<constructor-arg value="${interval}">
+		
+		</constructor-arg>
+	</bean>
+
+   <bean
+        class="net.paoding.rose.jade.context.spring.JadeBeanFactoryPostProcessor" />
+        
+    <!-- Database Connection -->
+    <bean id="jade.dataSource.ketangpaimail.master" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+        destroy-method="close">
+        <property name="driverClass" value="com.mysql.jdbc.Driver" />
+        <property name="jdbcUrl" value="${jdbc_url}"/>
+        <property name="user" value="${jdbc_user}" />
+        <property name="password" value="${jdbc_password}"/>
+        <property name="minPoolSize" value="10" />
+        <property name="initialPoolSize" value="10" />
+        <property name="maxPoolSize" value="50" />
+        <property name="acquireIncrement" value="10" />
+        <property name="maxIdleTime" value="3600" />
+        <property name="testConnectionOnCheckout" value="false" />
+        <property name="preferredTestQuery" value="select 1" />
+        <property name="idleConnectionTestPeriod" value="1800" />
+    </bean>
+    
+    <!-- quartz定时任务配置 -->
+    <bean id="serveralMinutesjob" class="com.ketangpai.task.TimeTask"/>
+   <bean id="serveralMinutesTask"
+        class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject">
+            <ref local="serveralMinutesjob" />
+        </property>
+        <property name="targetMethod">
+            <value>serveralMinutesJob</value>
+        </property>
+        <property name="concurrent" value="false" />
+    </bean>
+    <bean id="serveralMinutesCron" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail">
+            <ref bean="serveralMinutesTask" />
+        </property>
+        <property name="cronExpression">
+            <value>0 0/${interval} * * * ?</value>
+        </property>
+    </bean>
+    
+        <!-- 每周晚上24点给老师发送动态信息 -->
+   <bean id="weekTeacherjob" class="com.ketangpai.task.TimeTask"/>
+   <bean id="weekTeacherTask"
+        class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject">
+            <ref local="weekTeacherjob" />
+        </property>
+        <property name="targetMethod">
+            <value>getWeeklyDynamicInfo</value>
+        </property>
+        <property name="concurrent" value="false" />
+    </bean>
+    <bean id="weekTeacherCron" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail">
+            <ref bean="weekTeacherTask" />
+        </property>
+        <property name="cronExpression">
+            <!--every Sunday 23:59 run -->
+           <value>0 30 21 ? * SUN</value>
+           <!-- <value>0 0/${interval} * * * ?</value> -->
+           <!--  <value>0 0/1 * * * ?</value> -->
+        </property>
+    </bean>
+    
+     <!-- 总管理 -->
+  	<bean lazy-init="false"
+        class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="autoStartup" value="${autoStartup}" />
+        <property name="triggers">
+            <list>
+<!--             <ref local="minuteCron"/>
+                 <ref local="updatequeueCron"/> -->
+                 <ref local="serveralMinutesCron"/>
+                 <ref local="weekTeacherCron"/>
+            </list>
+        </property>
+    </bean>
+</beans>

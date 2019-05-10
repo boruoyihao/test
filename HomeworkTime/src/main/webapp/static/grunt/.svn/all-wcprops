@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt
+END
+imagemin.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/imagemin.js
+END
+concat.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/concat.js
+END
+rev.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/rev.js
+END
+compass.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/compass.js
+END
+htmlhint.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/htmlhint.js
+END
+uglify.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/uglify.js
+END
+jshint.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/jshint.js
+END
+cssmin.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/cssmin.js
+END
+watch.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/watch.js
+END
+requirejs.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/requirejs.js
+END
+useminPrepare.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/useminPrepare.js
+END
+usemin.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/usemin.js
+END
+handlebars.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/webapp/static/grunt/handlebars.js
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/tasknotify/!svn/ver/3/HomeworkTime/src/main/resources
+END
+app.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tasknotify/!svn/ver/7/HomeworkTime/src/main/resources/app.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tasknotify/!svn/ver/14/HomeworkTime/src/main/resources/applicationContext.xml
+END
+blacklist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tasknotify/!svn/ver/9/HomeworkTime/src/main/resources/blacklist
+END

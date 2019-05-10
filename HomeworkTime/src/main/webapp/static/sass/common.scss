@@ -1,0 +1,11 @@
+@import "mixins";
+
+#main_wrapper {
+	@include center-block(30px);
+	width:1100px;
+}
+
+.panel-body {
+	padding-top:30px;
+	padding-bottom:30px;
+}

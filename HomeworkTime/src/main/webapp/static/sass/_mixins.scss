@@ -1,0 +1,35 @@
+@mixin center-block($v-gap) {
+	margin:$v-gap auto;
+}
+
+@mixin absolute-center() {
+	margin:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+
+@mixin absolute-center-container() {
+	width: 50%;
+	height: 50%;
+  	overflow: auto;
+  	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+@mixin clearfix() {
+	&:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	// display: inline-block;
+	zoom: 1;
+	_height: 1%;
+	_overflow: visible;
+}

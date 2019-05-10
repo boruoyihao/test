@@ -1,0 +1,11 @@
+/* line 3, ../sass/common.scss */
+#main_wrapper {
+  margin: 30px auto;
+  width: 1100px;
+}
+
+/* line 8, ../sass/common.scss */
+.panel-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

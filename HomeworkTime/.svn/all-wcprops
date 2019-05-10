@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/tasknotify/!svn/ver/3/HomeworkTime
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/tasknotify/!svn/ver/9/HomeworkTime/pom.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tasknotify/!svn/ver/3/HomeworkTime/.project
+END
+release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tasknotify/!svn/ver/3/HomeworkTime/release.sh
+END
+release.bat
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tasknotify/!svn/ver/3/HomeworkTime/release.bat
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tasknotify/!svn/ver/3/HomeworkTime/.classpath
+END

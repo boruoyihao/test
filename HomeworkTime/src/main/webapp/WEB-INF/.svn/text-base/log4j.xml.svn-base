@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender name="${service_name}-log" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="${log_path}${service_name}/${service_name}.log" />
+        <param name="DatePattern" value=".yyyyMMddHH" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="[%-5p %d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] [%X{SessionId}] %l [%m]%n" />
+        </layout>
+    </appender>
+
+    <appender name="${service_name}-exception-log" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="${log_path}${service_name}/${service_name}.log.wf" />
+        <param name="DatePattern" value=".yyyyMMdd" />
+        <param name="threshold" value="error" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="[%-5p %d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] [%X{SessionId}] %l [%m]%n" />
+        </layout>
+    </appender>
+    <root>
+        <priority value="${log_level}" />
+        <appender-ref ref="${service_name}-exception-log" />
+        <appender-ref ref="${service_name}-log" />
+        <appender-ref ref="${service_name}-scribeAppender" />
+        <appender-ref ref="${service_name}-exception-scribeAppender" />
+    </root>
+</log4j:configuration>

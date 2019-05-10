@@ -1,0 +1,31 @@
+{{#if hasRecords}}
+{{> pagination}}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>交易号</th>
+            <th>交易时间</th>
+            <th>小米ID</th>
+            <th>外部订单号</th>
+            <th>交易状态</th>
+            <th>交易金额</th>
+            <th>手续费</th>
+            <th>退款</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data}}
+        <tr>
+            {{renderTable this}}
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{> pagination}}
+<button class="btn btn-lg btn-success" id="btn_export">查询结果导出</button>
+
+{{else}}
+
+<h1 class="no-record">抱歉，没有找到任何交易记录！</h1>
+
+{{/if}}

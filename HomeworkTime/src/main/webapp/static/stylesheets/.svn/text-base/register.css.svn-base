@@ -1,0 +1,50 @@
+/* line 5, ../sass/register.scss */
+sup {
+  color: #c00;
+}
+
+/* line 13, ../sass/register.scss */
+input[type="file"] {
+  display: none;
+}
+
+/* line 17, ../sass/register.scss */
+.img-preview {
+  margin-left: 20px;
+  float: right;
+  display: none;
+  position: relative;
+}
+/* line 22, ../sass/register.scss */
+.img-preview img {
+  height: 50px;
+  opacity: 0.4;
+}
+/* line 26, ../sass/register.scss */
+.img-preview figcaption {
+  font-family: 'Monaco';
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 35, ../sass/register.scss */
+.error-msg {
+  color: #a94442;
+  padding-top: 5px;
+  font-size: 11px;
+}
+
+/* line 40, ../sass/register.scss */
+.has-success .error-msg {
+  visibility: hidden;
+}
